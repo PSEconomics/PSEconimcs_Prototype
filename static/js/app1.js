@@ -6,7 +6,7 @@ var reset = d3.select("#reset-btn");
 
 var tbody = d3.select("tbody");
 
-d3.json("static/data/dataFULL.json",function(d) {
+d3.json("static/data/Reference20191015.json",function(d) {
 	data = d;
 	console.log(d);
 	runCode(data);
